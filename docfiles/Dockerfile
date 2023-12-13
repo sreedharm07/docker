@@ -1,5 +1,6 @@
 FROM    centos:7
 RUN     pwd
+CMD       ["google.com"]
 ENTRYPOINT   ["ping","-c3"]
 
 ENV     project robo
