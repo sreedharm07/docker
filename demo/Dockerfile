@@ -4,7 +4,7 @@ CMD   ["httpd","-DFOREGROUND"]
 LABEL app="roboshop" \
       company="acc" \
       dev="sr"
-EXPOSE  90
+EXPOSE  80
 
 
 
