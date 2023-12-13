@@ -1,5 +1,6 @@
 FROM centos:7
-#CMD   ["git"]
-ENTRYPOINT  ["yum", "install","-y","git"]
-ENTRYPOINT  ["echo", "hellow sr"]
-#
+CMD  ["yum", "install","-y","git"]
+CMD  ["echo", "hellow sr"]
+
+#ENTRYPOINT  ["yum", "install","-y","git"]
+#ENTRYPOINT  ["echo", "hellow sr"]
