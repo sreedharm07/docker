@@ -1,5 +1,5 @@
 FROM  centos:7
 RUN   yum install httpd -y
-CMD   ["https","-DFOREGROUND"]
+CMD   ["httpd","-DFOREGROUND"]
 
 
