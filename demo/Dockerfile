@@ -5,6 +5,3 @@ LABEL app="roboshop" \
       company="acc" \
       dev="sr"
 EXPOSE  80
-
-
-
