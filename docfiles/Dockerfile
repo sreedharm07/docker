@@ -1,6 +1,6 @@
 FROM    centos:7
-RUN     yum install awscli -y
-CMD     ["ping","-c3"]
+RUN     pwd
+ENTRYPOINT   ["ping","-c3"]
 
 ENV     project robo
 ENV     name   sri
