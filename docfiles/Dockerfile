@@ -1,7 +1,7 @@
 FROM    centos:7
-RUN     pwd
+RUN     yum install httpd -y
 #CMD       ["google.com"]
-#ENTRYPOINT   ["ping","-c3"]
+ENTRYPOINT   ["httpd","-DFOREGROUND"]
 
 ENV     project robo
 ENV     name   sri
