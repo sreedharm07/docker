@@ -1,2 +1,2 @@
 FROM centos:7
-CMD  ["yum", "inatall", "git", "-y"]
+CMD  ["yum", "install", "git", "-y"]
