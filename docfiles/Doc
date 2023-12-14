@@ -1,7 +1,3 @@
-FROM centos:7
-CMD  ["yum", "install","-y","git"]
-CMD  ["echo", "hellow sr"]
-
-ENTRYPOINT  ["yum", "install","-y","git"]
-ENTRYPOINT  ["echo", "hellow sr"]
+FROM    CENTOS:7
+ENTRYPOINT    ["ping", "-c3"]
 
