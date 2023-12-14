@@ -5,4 +5,3 @@ CMD  ["echo", "hellow sr"]
 ENTRYPOINT  ["yum", "install","-y","git"]
 ENTRYPOINT  ["echo", "hellow sr"]
 
-ced
